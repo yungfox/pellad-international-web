@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #171717;
+    color: #cccccc;
+    height: 100vh;
+    flex-direction: column;
+}
+
+@font-face {
+    font-family: 'Druk Wide Bold Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Druk Wide Bold Bold'), url('fonts/Druk-Wide-Cy-Web-Medium-Regular.ttf');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Dela Gothic One'), url('fonts/DelaGothicOne-Regular.ttf');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Lalezar';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lalezar'), url('fonts/Lalezar-Regular.ttf');
+}
+
+.wrapper {
+    width: 456px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reference {
+    text-transform: uppercase;
+    font-size: 5.98rem;
+    width: 100%;
+    padding: auto;
+    font-family: 'Druk Wide Bold Bold';
+    font-size: 5rem;
+    line-height: 1;
+}
+
+.pellad {
+    text-transform: uppercase;
+    font-size: 5.98rem;
+    width: 100%;
+    padding: auto;
+    line-height: 1;
+}
+
+.stretch {
+    transform: scaleY(0.875);
+    transform-origin: 0 0;
+    letter-spacing: -3px;
+}
+
+#latin, #cyrillic {
+    font-family: 'Druk Wide Bold Bold';
+    font-size: 5rem;
+}
+
+#katagana {
+    font-family: "Dela Gothic One";
+}
+
+#cyrillic {
+    font-size: 4.7rem;
+}
+
+#katagana {
+    margin-left: 1rem;
+}
+
+#arabic {
+    font-family: 'Lalezar';
+    text-align: end;
+    font-size: 9rem;
+    transform: scaleY(0.7);
+    justify-content: flex-end;
+    margin-top: 0.5rem;
+}
