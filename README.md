@@ -4,4 +4,4 @@ Graphics concept using my band's alternate logo with latin, cyrillic, japanese a
 
 ## Quick start
 
-Just open `index.html` in any decent browser. You can try it on some crap ones as well but this project was not tested on any. If you're feeling fancy, you can serve it with Live Server in Visual Studio Code (or any other server for that matter).
+Just open `index.html` in any decent browser. You can try it on some crap ones as well but this project was not tested on any. If you're feeling fancy, you can serve it with [Live Server](https://github.com/ritwickdey/vscode-live-server) in Visual Studio Code (or any other server for that matter).
